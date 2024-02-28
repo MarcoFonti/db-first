@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,5 +9,34 @@
 </head>
 <body>
     <!-- TABELLA -->
+    <div class="container mt-5">
+        <h2 class="text-center text-danger">AUTO USATE</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">STATO</th>
+                    <th scope="col">PRODUTTORE</th>
+                    <th scope="col">MODELLO</th>
+                    <th scope="col">TIPO</th>
+                    <th scope="col">CILINDRATA</th>
+                    <th scope="col">DESCRIZIONE</th>
+                    <th scope="col">PREZZO RIVENDITA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PRIMARY_KEY, AUTO_INCREMENT</td>
+                    <td>CHAR(5)</td>
+                    <td>NOTNULL</td>
+                    <td>NOTNULL</td>
+                    <td>NOTNULL</td>
+                    <td>NULL, FLOAT</td>
+                    <td>NULL,TEXT</td>
+                    <td>NOTNULL, FLOAT</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
